@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-size:10px;
+}
+body{
+    height:100vh;
+    background-color:rgb(151, 179, 231);
+    padding:2rem 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+#header h2{
+    font-size: 4rem;
+}
+#header h4{
+    font-size: 3rem;
+}
+#card {
+display:flex;
+flex-direction: column;
+align-items: center;
+margin:5rem auto;
+gap:4rem;
+background-color: rgb(207, 214, 226);
+width:40%;
+padding: 3rem 1rem;
+border-radius: 20px;
+}
+.guessInput{
+    display:flex;
+}
+.guessInput input{
+    border:1px solid rgb(20,20,20);
+    width:250px;
+    padding-inline:1rem;
+}
+.guessInput input:focu, #startAgain{
+    outline:none;
+}
+.guessInput button{
+    border:none;
+    padding:1rem;
+    background-color: rgb(201, 84, 84);
+    cursor:pointer;
+    color:white;
+}
+#attention{
+    font-size:2rem;
+}
+#left, #numbers{
+    font-size:1.5rem;
+}
+#left span, #numbers span{
+    font-size: 2.5rem;
+}
+#numbers span{
+    font-size: 2rem;
+}
+#startAgain{
+    background-color: rgb(201, 84, 84);
+    color:white;
+    border:none;
+    width:50%;
+    padding:2rem 0;
+    font-size:2rem;
+    border-radius: 10px;
+    display:none;
+}
+#startAgain:hover{
+    cursor:pointer;
+}
