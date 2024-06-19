@@ -1,3 +1,4 @@
+//Değişken tanımlama
 const guessInput = document.querySelector("#guess"); //Tahmin girilen input
 const button = document.querySelector("#guessSend"); //Tahmin girilen inputun butonu
 const attention = document.querySelector("#attention");
